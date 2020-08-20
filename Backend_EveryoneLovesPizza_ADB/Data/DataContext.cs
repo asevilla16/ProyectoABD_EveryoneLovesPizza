@@ -7,5 +7,6 @@ namespace Backend_EveryoneLovesPizza_ADB.Data
 {
     public class DataContext : DbContext
     {
+        
     }
 }

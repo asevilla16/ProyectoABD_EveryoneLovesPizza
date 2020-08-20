@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Angel\\Documents\\AdminBD\\Proyecto\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {}
+    "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Angel\\Documents\\AdminBD\\Proyecto\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {
+    "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Angel\\Documents\\AdminBD\\Proyecto\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
+        "projectUniqueName": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
         "projectName": "Backend_EveryoneLovesPizza_ADB",
-        "projectPath": "C:\\Users\\Angel\\Documents\\AdminBD\\Proyecto\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
+        "projectPath": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
         "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Angel\\Documents\\AdminBD\\Proyecto\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB\\obj\\",
+        "outputPath": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
