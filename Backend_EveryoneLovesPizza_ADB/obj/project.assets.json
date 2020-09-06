@@ -5671,23 +5671,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Angel\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Unforgiven15\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
+      "projectUniqueName": "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
       "projectName": "Backend_EveryoneLovesPizza_ADB",
-      "projectPath": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
-      "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\",
+      "projectPath": "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
+      "packagesPath": "C:\\Users\\Unforgiven15\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Unforgiven15\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5740,7 +5736,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
