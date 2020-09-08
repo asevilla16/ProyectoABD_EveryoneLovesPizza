@@ -8741,34 +8741,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\maria\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\Unforgiven15\\.nuget\\packages\\": {}
->>>>>>> 635a92ecc4e99a3eb7673ac3769347264e2cf5e7
+    "C:\\Users\\Angel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
+      "projectUniqueName": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
       "projectName": "Backend_EveryoneLovesPizza_ADB",
-      "projectPath": "D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
-      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\",
+      "projectPath": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
+      "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
-      "projectName": "Backend_EveryoneLovesPizza_ADB",
-      "projectPath": "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
-      "packagesPath": "C:\\Users\\Unforgiven15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Unforgiven15\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 635a92ecc4e99a3eb7673ac3769347264e2cf5e7
+        "C:\\Users\\Angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8776,7 +8765,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8834,20 +8822,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-<<<<<<< HEAD
-      "message": "Problema al leer el archivo de caché D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-=======
-      "message": "Problem reading the cache file C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> 635a92ecc4e99a3eb7673ac3769347264e2cf5e7
-    }
-  ]
+  }
 }
