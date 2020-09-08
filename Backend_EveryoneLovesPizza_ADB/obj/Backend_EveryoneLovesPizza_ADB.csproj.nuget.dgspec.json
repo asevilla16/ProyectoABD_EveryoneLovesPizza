@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
-        "projectName": "Backend_EveryoneLovesPizza_ADB",
-        "projectPath": "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
-        "packagesPath": "C:\\Users\\Unforgiven15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Unforgiven15\\Documents\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Unforgiven15\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 635a92ecc4e99a3eb7673ac3769347264e2cf5e7
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
