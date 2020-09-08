@@ -1,20 +1,36 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {}
+=======
+    "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {}
+>>>>>>> 9bf3433c64c0c2d5f99da3d77dd01d8a39846fcf
   },
   "projects": {
-    "D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {
+    "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
+        "projectUniqueName": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
         "projectName": "Backend_EveryoneLovesPizza_ADB",
+<<<<<<< HEAD
         "projectPath": "D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
         "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
         "outputPath": "D:\\Documentos\\CEUTEC\\2020\\3tri\\Admon Bases de Datos\\EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "projectPath": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\Backend_EveryoneLovesPizza_ADB.csproj",
+        "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Angel\\Documents\\AdminBD\\ProyectoABD_EveryoneLovesPizza\\Backend_EveryoneLovesPizza_ADB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 9bf3433c64c0c2d5f99da3d77dd01d8a39846fcf
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +38,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

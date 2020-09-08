@@ -370,7 +370,9 @@ namespace Backend_EveryoneLovesPizza_ADB.Models
 
             modelBuilder.Entity<TransaccionesEntidad>(entity =>
             {
-                entity.HasNoKey();
+                entity.Property(e => e.Id)
+                    .HasColumnName("ID")
+                    .ValueGeneratedNever();
 
                 entity.Property(e => e.EntidadAfectada)
                     .IsRequired()
@@ -378,8 +380,6 @@ namespace Backend_EveryoneLovesPizza_ADB.Models
                     .IsUnicode(false);
 
                 entity.Property(e => e.FechaTransaccion).HasColumnType("datetime");
-
-                entity.Property(e => e.Id).HasColumnName("ID");
 
                 entity.Property(e => e.TipoTransaccion)
                     .IsRequired()
