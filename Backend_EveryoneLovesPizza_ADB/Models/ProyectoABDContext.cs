@@ -251,8 +251,6 @@ namespace Backend_EveryoneLovesPizza_ADB.Models
 
                 entity.Property(e => e.Idcategoria).HasColumnName("IDCategoria");
 
-                entity.Property(e => e.Idproveedor).HasColumnName("IDProveedor");
-
                 entity.Property(e => e.Nombres)
                     .IsRequired()
                     .HasMaxLength(50)

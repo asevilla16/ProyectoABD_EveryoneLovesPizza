@@ -14,7 +14,6 @@ namespace Backend_EveryoneLovesPizza_ADB.Models
 
         public int Id { get; set; }
         public string Nombres { get; set; }
-        public int Idproveedor { get; set; }
         public int Idcategoria { get; set; }
         public string Descripcion { get; set; }
         public string UnidadMedidaVenta { get; set; }

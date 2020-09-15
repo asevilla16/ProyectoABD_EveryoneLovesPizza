@@ -27,6 +27,11 @@ namespace Backend_EveryoneLovesPizza_ADB
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ProyectoABDContext>();
+            services.AddMvc().AddNewtonsoftJson(option => option.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+            services.AddCors(options => options.AddPolicy("AllowWebApp",
+                                    builder => builder.AllowAnyOrigin()
+                                                .AllowAnyHeader()
+                                                .AllowAnyMethod()));
             services.AddControllers();
         }
 
