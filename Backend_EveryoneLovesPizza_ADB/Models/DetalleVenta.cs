@@ -10,6 +10,7 @@ namespace Backend_EveryoneLovesPizza_ADB.Models
         public int Cantidad { get; set; }
         public int Idorden { get; set; }
 
+        public virtual Insumos IdinsumosNavigation { get; set; }
         public virtual OrdenVenta IdordenNavigation { get; set; }
     }
 }

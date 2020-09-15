@@ -166,6 +166,12 @@ namespace Backend_EveryoneLovesPizza_ADB.Models
 
                 entity.Property(e => e.Idorden).HasColumnName("IDOrden");
 
+                entity.HasOne(d => d.IdinsumosNavigation)
+                    .WithMany(p => p.DetalleVenta)
+                    .HasForeignKey(d => d.Idinsumos)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Detalle_Venta_Insumos");
+
                 entity.HasOne(d => d.IdordenNavigation)
                     .WithMany(p => p.DetalleVenta)
                     .HasForeignKey(d => d.Idorden)
