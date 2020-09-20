@@ -24,7 +24,8 @@ namespace Backend_EveryoneLovesPizza_ADB.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DetalleProducto>>> GetDetalleProducto()
         {
-            return await _context.DetalleProducto.ToListAsync();
+            var data = await _context.DetalleProducto.Include(q => q.IdproductoNavigation).Include(p => p.IdinsumoNavigation).ToListAsync();
+            return data;
         }
 
         // GET: api/DetalleProductos/5
