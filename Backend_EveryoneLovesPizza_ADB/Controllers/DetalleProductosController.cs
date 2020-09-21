@@ -32,7 +32,7 @@ namespace Backend_EveryoneLovesPizza_ADB.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<DetalleProducto>> GetDetalleProducto(int id)
         {
-            var detalleProducto = await _context.DetalleProducto.FindAsync(id);
+            var detalleProducto = await _context.DetalleProducto.Include(q => q.IdproductoNavigation).Include(p => p.IdinsumoNavigation).FirstOrDefaultAsync(x => x.Id == id);
 
             if (detalleProducto == null)
             {

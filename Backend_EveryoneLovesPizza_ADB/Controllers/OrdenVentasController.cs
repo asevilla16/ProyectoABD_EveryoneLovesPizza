@@ -24,14 +24,14 @@ namespace Backend_EveryoneLovesPizza_ADB.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<OrdenVenta>>> GetOrdenVenta()
         {
-            return await _context.OrdenVenta.ToListAsync();
+            return await _context.OrdenVenta.Include(q => q.IdclienteNavigation).Include(p => p.IdencargadoNavigation).ToListAsync();
         }
 
         // GET: api/OrdenVentas/5
         [HttpGet("{id}")]
         public async Task<ActionResult<OrdenVenta>> GetOrdenVenta(int id)
         {
-            var ordenVenta = await _context.OrdenVenta.FindAsync(id);
+            var ordenVenta = await _context.OrdenVenta.Include(q => q.IdclienteNavigation).Include(p => p.IdencargadoNavigation).FirstOrDefaultAsync(x => x.Id == id);
 
             if (ordenVenta == null)
             {
