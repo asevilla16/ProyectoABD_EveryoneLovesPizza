@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Backend_EveryoneLovesPizza_ADB.Models;
+using System.Reflection;
 
 namespace Backend_EveryoneLovesPizza_ADB.Controllers
 {
@@ -14,17 +15,18 @@ namespace Backend_EveryoneLovesPizza_ADB.Controllers
     public class EmpleadosController : ControllerBase
     {
         private readonly ProyectoABDContext _context;
-
+        
         public EmpleadosController(ProyectoABDContext context)
         {
             _context = context;
         }
-
+        
         // GET: api/Empleados
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Empleado>>> GetEmpleado()
         {
-            return await _context.Empleado.ToListAsync();
+            var response = await _context.Empleado.ToListAsync();
+            return response;
         }
 
         // GET: api/Empleados/5
@@ -42,16 +44,22 @@ namespace Backend_EveryoneLovesPizza_ADB.Controllers
         }
         // GET: api/Empleados/username
         [HttpGet("{username}")]
-        public async Task<ActionResult<Empleado>> GetEmpleado(string username)
+        public Empleado GetEmpleado(string username)
         {
-            var empleado = await _context.Empleado.FindAsync(username);
-
-            if (empleado == null)
+            List<Empleado> empleados = _context.Empleado.ToList();
+            Empleado e = new Empleado();
+            foreach (Empleado empl in empleados)
             {
-                return NotFound();
+                if (empl.Correo == username)
+                {
+                    e = empl;
+                }
             }
-
-            return empleado;
+            if (e == null)
+            {
+                return null;
+            }
+            return e;
         }
         // PUT: api/Empleados/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for

@@ -9,7 +9,8 @@ namespace Backend_EveryoneLovesPizza_ADB.Models
     {
         public string Correo { get; set; }
         public string Contraseña { get; set; }
-
+        public Empleado? Empleado { get; set; }
+        public string? Token { get; set; }
 
     }
 }
